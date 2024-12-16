@@ -1,0 +1,7 @@
+README
+
+This project is intended to translate between natural language and machine logical form. I followed the model in the paper https://aclanthology.org/P16-1004.pdf. In this model, the researchers wanted to create an LSTM model that has an attention aspect to it. Instead of the last encoder block outputting to the first decoder block, they wanted to have a mechanism of where the all the encoder blocks contributed to each decoder block for better performance. I implemented the Seq2Seq part of the paper in this project.
+
+I implemented this attention framework by manually looping through the decoder blocks and runninhg manually running matrix multiplication calculations to mimic the formulas and diagrams they described in the paper. I also generated a hyperparameter search to easily sift through the parameter space where each hyperparameter had several options and took the best performingh hyperpameter selection to run for my model. This was done because my model seemed very sensitive to the hyperparameters I chose.
+
+Here is a quick video of me describing my project: https://vimeo.com/1039656594?share=copy
