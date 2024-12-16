@@ -41,6 +41,10 @@ After 20 epochs, the model typically achieves:
 - Per-token Accuracy: 85-95%
 - Exact-match Accuracy: 75-85%
 
+## Video Demonstration
+
+Here is the [video demonstration](https://vimeo.com/1039656594?share=copy) for my project.
+
 
 ## References
 
